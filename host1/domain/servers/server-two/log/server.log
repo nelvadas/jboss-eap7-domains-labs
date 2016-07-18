@@ -1,0 +1,110 @@
+2016-07-18 13:02:42,348 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final-redhat-1
+2016-07-18 13:02:42,799 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final-redhat-1
+2016-07-18 13:02:42,943 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) démarre
+2016-07-18 13:02:43,013 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.3.6.Final-redhat-1
+2016-07-18 13:02:43,020 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.3.6.Final-redhat-1
+2016-07-18 13:02:43,056 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 4.0.18.Final-redhat-1
+2016-07-18 13:02:44,597 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 38) WFLYJCA0004: Déploiement du pilote compatible JDCB class org.h2.Driver (version 1.3)
+2016-07-18 13:02:44,599 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: L'employé 'default' a configuré automatiquement les fils principaux 16 avec les fils de tâche 128 selon vos 8 processeurs disponibles
+2016-07-18 13:02:44,603 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Activation du sous-système Infinispan
+2016-07-18 13:02:44,607 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 64) WFLYTX0013: Propriété d'identificateur de noeud définie à la valeur par défaut. Veillez à ce que cette valeur soit bien unique.
+2016-07-18 13:02:44,622 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 50) WFLYJSF0007: A activé les implémentations JSF suivantes : [main]
+2016-07-18 13:02:44,630 INFO  [org.jboss.as.clustering.jgroups] (ServerService Thread Pool -- 47) WFLYCLJG0001: Activation du sous-système JGroups.
+2016-07-18 13:02:44,678 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 55) WFLYNAM0001: Démarrage du sous-système de nommage
+2016-07-18 13:02:44,687 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 66) WFLYWS0002: Activation de l'extension WebServices
+2016-07-18 13:02:44,698 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Démarrage du sous-système JCA (WildFly/IronJacamar 1.3.3.Final-redhat-1)
+2016-07-18 13:02:44,702 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 43) WFLYIIOP0001: Activation du sous-système IIOP
+2016-07-18 13:02:44,708 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 61) WFLYSEC0002: Activation du sous-système de sécurité
+2016-07-18 13:02:44,709 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Démarrage du service de pilote avec le nom de pilote  = h2
+2016-07-18 13:02:44,715 INFO  [org.jboss.as.security] (MSC service thread 1-6) WFLYSEC0001: Version PicketBox actuelle=4.9.6.Final-redhat-1
+2016-07-18 13:02:44,727 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Démarrage 1.3.21.Final-redhat-1 d'Undertow 
+2016-07-18 13:02:44,727 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 65) WFLYUT0003: Démarrage 1.3.21.Final-redhat-1 d'Undertow 
+2016-07-18 13:02:44,801 INFO  [org.jboss.as.naming] (MSC service thread 1-5) WFLYNAM0003: Démarrage du service de nommage
+2016-07-18 13:02:44,802 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0001: Session mail liée [java:jboss/mail/Default]
+2016-07-18 13:02:44,849 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 65) WFLYUT0014: Création de gestionnaire de fichier pour le chemin '/Users/enonowog/BlogWorkspace/EAPDomains/labs-eap7/jboss-eap-7.0/welcome-content' avec les options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2016-07-18 13:02:45,121 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0012: A démarré le serveur default-server.
+2016-07-18 13:02:45,123 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0018: L'hôte default-host démarre
+2016-07-18 13:02:45,179 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTP écouteur default écoutant sur 127.0.0.1:8230
+2016-07-18 13:02:45,179 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow AJP écouteur ajp écoutant sur 127.0.0.1:8009
+2016-07-18 13:02:45,198 INFO  [org.jboss.modcluster] (ServerService Thread Pool -- 69) MODCLUSTER000001: Initializing mod_cluster version 1.3.2.Final-redhat-1
+2016-07-18 13:02:45,218 INFO  [org.jboss.modcluster] (ServerService Thread Pool -- 69) MODCLUSTER000032: Listening to proxy advertisements on /224.0.1.105:23364
+2016-07-18 13:02:45,251 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0482: Strict pool mdb-strict-max-pool utilise une taille d'instance max de 32 (par classe), qui est dérivée du nombre de CPU présents sur cet hôte.
+2016-07-18 13:02:45,251 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0481: Strict pool slsb-strict-max-pool utilise une taille d'instance max de 128 (par classe), qui est dérivée de la taille du pool de worker de threads.
+2016-07-18 13:02:45,492 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Source de données liée [java:jboss/datasources/ExampleDS]
+2016-07-18 13:02:45,536 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-4) WFLYIIOP0009: Service CORBA ORB démarré
+2016-07-18 13:02:45,711 WARN  [org.jgroups.protocols.UDP] (MSC service thread 1-1) JGRP000015: the receive buffer of socket ManagedMulticastSocketBinding was set to 20MB, but the OS only allocated 6,71MB. This might lead to performance problems. Please set your max receive buffer in the OS correctly (e.g. net.core.rmem_max on Linux)
+2016-07-18 13:02:45,711 WARN  [org.jgroups.protocols.UDP] (MSC service thread 1-1) JGRP000015: the receive buffer of socket ManagedMulticastSocketBinding was set to 25MB, but the OS only allocated 6,71MB. This might lead to performance problems. Please set your max receive buffer in the OS correctly (e.g. net.core.rmem_max on Linux)
+2016-07-18 13:02:47,066 INFO  [org.jboss.ws.common.management] (MSC service thread 1-7) JBWS022052: Starting JBossWS 5.1.3.SP1-redhat-1 (Apache CXF 3.1.4.redhat-1) 
+2016-07-18 13:02:48,767 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-3) WFLYMSGAMQ0001: AIO ne se trouvait pas sur cette plateforme, il faudra donc utiliser du Java NIO pur.
+2016-07-18 13:02:48,840 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 69) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=true,journalDirectory=/Users/enonowog/BlogWorkspace/EAPDomains/labs-eap7/jboss-eap-7.0/bin/../../host1/domain/servers/server-two/data/activemq/journal,bindingsDirectory=/Users/enonowog/BlogWorkspace/EAPDomains/labs-eap7/jboss-eap-7.0/bin/../../host1/domain/servers/server-two/data/activemq/bindings,largeMessagesDirectory=/Users/enonowog/BlogWorkspace/EAPDomains/labs-eap7/jboss-eap-7.0/bin/../../host1/domain/servers/server-two/data/activemq/largemessages,pagingDirectory=/Users/enonowog/BlogWorkspace/EAPDomains/labs-eap7/jboss-eap-7.0/bin/../../host1/domain/servers/server-two/data/activemq/paging)
+2016-07-18 13:02:48,867 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 69) AMQ221013: Using NIO Journal
+2016-07-18 13:02:49,053 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 69) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2016-07-18 13:02:49,057 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 69) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2016-07-18 13:02:49,144 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-4) ISPN000078: Starting JGroups channel server
+2016-07-18 13:02:49,144 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-6) ISPN000078: Starting JGroups channel ejb
+2016-07-18 13:02:49,144 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-7) ISPN000078: Starting JGroups channel hibernate
+2016-07-18 13:02:49,144 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-5) ISPN000078: Starting JGroups channel web
+2016-07-18 13:02:49,152 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-3) WFLYMSGAMQ0016: Mise à niveau HTTP enregistré pour le protocole activemq-remoting géré par l'acceptateur http-acceptor-throughput
+2016-07-18 13:02:49,152 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0016: Mise à niveau HTTP enregistré pour le protocole activemq-remoting géré par l'acceptateur http-acceptor-throughput
+2016-07-18 13:02:49,152 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0016: Mise à niveau HTTP enregistré pour le protocole activemq-remoting géré par l'acceptateur http-acceptor
+2016-07-18 13:02:49,152 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-8) WFLYMSGAMQ0016: Mise à niveau HTTP enregistré pour le protocole activemq-remoting géré par l'acceptateur http-acceptor
+2016-07-18 13:02:49,158 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-6) ISPN000094: Received new cluster view for channel ejb: [host1:server-two|0] (1) [host1:server-two]
+2016-07-18 13:02:49,158 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-7) ISPN000094: Received new cluster view for channel hibernate: [host1:server-two|0] (1) [host1:server-two]
+2016-07-18 13:02:49,158 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-4) ISPN000094: Received new cluster view for channel server: [host1:server-two|0] (1) [host1:server-two]
+2016-07-18 13:02:49,158 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-5) ISPN000094: Received new cluster view for channel web: [host1:server-two|0] (1) [host1:server-two]
+2016-07-18 13:02:49,165 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-7) ISPN000079: Channel hibernate local address is host1:server-two, physical addresses are [127.0.0.1:55350]
+2016-07-18 13:02:49,165 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-5) ISPN000079: Channel web local address is host1:server-two, physical addresses are [127.0.0.1:55350]
+2016-07-18 13:02:49,165 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-4) ISPN000079: Channel server local address is host1:server-two, physical addresses are [127.0.0.1:55350]
+2016-07-18 13:02:49,166 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-6) ISPN000079: Channel ejb local address is host1:server-two, physical addresses are [127.0.0.1:55350]
+2016-07-18 13:02:49,174 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-4) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.2.Final-redhat-1
+2016-07-18 13:02:49,206 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 69) AMQ221007: Server is now live
+2016-07-18 13:02:49,207 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 69) AMQ221001: Apache ActiveMQ Artemis Message Broker version 1.1.0.SP16-redhat-1 [nodeID=2a0a8208-4cd7-11e6-8d04-7ba7964d1b31] 
+2016-07-18 13:02:49,219 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 68) WFLYMSGAMQ0002: Object de messagerie lié au nom jndi java:jboss/exported/jms/RemoteConnectionFactory
+2016-07-18 13:02:49,237 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 70) AMQ221003: trying to deploy queue jms.queue.ExpiryQueue
+2016-07-18 13:02:49,269 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 71) AMQ221003: trying to deploy queue jms.queue.DLQ
+2016-07-18 13:02:49,275 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 69) WFLYMSGAMQ0002: Object de messagerie lié au nom jndi java:/ConnectionFactory
+2016-07-18 13:02:49,292 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-3) WFLYJCA0007: Fabrique de connexions enregistrée java:/JmsXA
+2016-07-18 13:02:49,322 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-3) Resource adaptor started
+2016-07-18 13:02:49,323 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-3) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2016-07-18 13:02:49,330 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-3) WFLYJCA0002: JCA liée ConnectionFactory [java:/JmsXA]
+2016-07-18 13:02:49,330 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-7) WFLYMSGAMQ0002: Object de messagerie lié au nom jndi java:jboss/DefaultJMSConnectionFactory
+2016-07-18 13:02:49,436 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) a démarré en 7461ms - 344 sur 643 services ont démarré (440 services sont passifs ou à la demande)
+2016-07-18 13:02:58,285 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: La fermeture du serveur à été demandée.
+2016-07-18 13:02:58,308 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Source de données non liée [java:jboss/datasources/ExampleDS]
+2016-07-18 13:02:58,311 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-6) WFLYMSGAMQ0006: Object de messagerie non lié au nom jndi java:jboss/DefaultJMSConnectionFactory
+2016-07-18 13:02:58,314 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 69) WFLYMSGAMQ0006: Object de messagerie non lié au nom jndi java:jboss/exported/jms/RemoteConnectionFactory
+2016-07-18 13:02:58,316 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-4) WFLYJCA0011: JCA non liée ConnectionFactory [java:/JmsXA]
+2016-07-18 13:02:58,316 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0019: L'hôte default-host s'arrête
+2016-07-18 13:02:58,319 INFO  [org.jboss.modcluster] (ServerService Thread Pool -- 69) MODCLUSTER000002: Initiating mod_cluster shutdown
+2016-07-18 13:02:58,320 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0008: Undertow AJP écouteur ajp en cours de suspension
+2016-07-18 13:02:58,320 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-2) ISPN000080: Disconnecting JGroups channel server
+2016-07-18 13:02:58,320 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-2) ISPN000082: Stopping the RpcDispatcher for channel server
+2016-07-18 13:02:58,320 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-4) ISPN000080: Disconnecting JGroups channel web
+2016-07-18 13:02:58,321 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-4) ISPN000082: Stopping the RpcDispatcher for channel web
+2016-07-18 13:02:58,321 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0007: Undertow AJP écouteur ajp s'est arrêté, était lié à 127.0.0.1:8009
+2016-07-18 13:02:58,319 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 21) WFLYMSGAMQ0006: Object de messagerie non lié au nom jndi java:/ConnectionFactory
+2016-07-18 13:02:58,322 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-3) ISPN000080: Disconnecting JGroups channel hibernate
+2016-07-18 13:02:58,322 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-1) ISPN000080: Disconnecting JGroups channel ejb
+2016-07-18 13:02:58,322 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-3) ISPN000082: Stopping the RpcDispatcher for channel hibernate
+2016-07-18 13:02:58,323 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-1) ISPN000082: Stopping the RpcDispatcher for channel ejb
+2016-07-18 13:02:58,322 WARN  [org.jboss.modcluster] (ServerService Thread Pool -- 69) MODCLUSTER000033: Failed to interrupt socket reception.: java.io.IOException: Can't assign requested address
+	at java.net.PlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(DatagramSocket.java:693)
+	at org.jboss.modcluster.advertise.impl.AdvertiseListenerImpl.interruptDatagramReader(AdvertiseListenerImpl.java:209)
+	at org.jboss.modcluster.advertise.impl.AdvertiseListenerImpl.stop(AdvertiseListenerImpl.java:228)
+	at org.jboss.modcluster.advertise.impl.AdvertiseListenerImpl.destroy(AdvertiseListenerImpl.java:244)
+	at org.jboss.modcluster.ModClusterService.shutdown(ModClusterService.java:219)
+	at org.wildfly.extension.mod_cluster.ContainerEventHandlerService.stop(ContainerEventHandlerService.java:154)
+	at org.wildfly.clustering.service.AsynchronousServiceBuilder$2.run(AsynchronousServiceBuilder.java:130)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+
+2016-07-18 13:02:58,329 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Arrêt du service de pilote avec le nom de pilote  = h2
+2016-07-18 13:02:58,344 INFO  [org.apache.activemq.artemis.ra] (ServerService Thread Pool -- 21) AMQ151003: resource adaptor stopped
+2016-07-18 13:02:58,381 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 21) AMQ221002: Apache ActiveMQ Artemis Message Broker version 1.1.0.SP16-redhat-1 [2a0a8208-4cd7-11e6-8d04-7ba7964d1b31] stopped
+2016-07-18 13:02:58,382 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0008: Undertow HTTP écouteur default en cours de suspension
+2016-07-18 13:02:58,382 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0007: Undertow HTTP écouteur default s'est arrêté, était lié à 127.0.0.1:8080
+2016-07-18 13:02:58,383 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0004: Arrêt 1.3.21.Final-redhat-1 d'Undertow
+2016-07-18 13:02:58,429 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) arrêté en 125ms

@@ -1,0 +1,67 @@
+2016-07-18 13:24:25,914 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final-redhat-1
+2016-07-18 13:24:26,135 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final-redhat-1
+2016-07-18 13:24:26,323 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) démarre
+2016-07-18 13:24:26,392 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.3.6.Final-redhat-1
+2016-07-18 13:24:26,398 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.3.6.Final-redhat-1
+2016-07-18 13:24:26,438 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 4.0.18.Final-redhat-1
+2016-07-18 13:24:27,851 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 52) WFLYTX0013: Propriété d'identificateur de noeud définie à la valeur par défaut. Veillez à ce que cette valeur soit bien unique.
+2016-07-18 13:24:27,855 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 35) WFLYIO001: L'employé 'default' a configuré automatiquement les fils principaux 16 avec les fils de tâche 128 selon vos 8 processeurs disponibles
+2016-07-18 13:24:27,858 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 32) WFLYJCA0004: Déploiement du pilote compatible JDCB class org.h2.Driver (version 1.3)
+2016-07-18 13:24:27,859 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 36) WFLYCLINF0001: Activation du sous-système Infinispan
+2016-07-18 13:24:27,864 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 42) WFLYJSF0007: A activé les implémentations JSF suivantes : [main]
+2016-07-18 13:24:27,911 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 44) WFLYNAM0001: Démarrage du sous-système de nommage
+2016-07-18 13:24:27,919 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 54) WFLYWS0002: Activation de l'extension WebServices
+2016-07-18 13:24:27,931 INFO  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0009: Démarrage du sous-système JCA (WildFly/IronJacamar 1.3.3.Final-redhat-1)
+2016-07-18 13:24:27,941 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 50) WFLYSEC0002: Activation du sous-système de sécurité
+2016-07-18 13:24:27,944 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Démarrage du service de pilote avec le nom de pilote  = h2
+2016-07-18 13:24:27,948 INFO  [org.jboss.as.security] (MSC service thread 1-7) WFLYSEC0001: Version PicketBox actuelle=4.9.6.Final-redhat-1
+2016-07-18 13:24:27,956 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 53) WFLYUT0003: Démarrage 1.3.21.Final-redhat-1 d'Undertow 
+2016-07-18 13:24:27,956 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Démarrage 1.3.21.Final-redhat-1 d'Undertow 
+2016-07-18 13:24:28,010 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Démarrage du service de nommage
+2016-07-18 13:24:28,010 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Session mail liée [java:jboss/mail/Default]
+2016-07-18 13:24:28,049 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 53) WFLYUT0014: Création de gestionnaire de fichier pour le chemin '/Users/enonowog/BlogWorkspace/EAPDomains/labs-eap7/jboss-eap-7.0/welcome-content' avec les options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2016-07-18 13:24:28,273 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0012: A démarré le serveur default-server.
+2016-07-18 13:24:28,275 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: L'hôte default-host démarre
+2016-07-18 13:24:28,344 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTP écouteur default écoutant sur 127.0.0.1:8580
+2016-07-18 13:24:28,387 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0481: Strict pool slsb-strict-max-pool utilise une taille d'instance max de 128 (par classe), qui est dérivée de la taille du pool de worker de threads.
+2016-07-18 13:24:28,387 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0482: Strict pool mdb-strict-max-pool utilise une taille d'instance max de 32 (par classe), qui est dérivée du nombre de CPU présents sur cet hôte.
+2016-07-18 13:24:28,468 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Source de données liée [java:jboss/datasources/ExampleDS]
+2016-07-18 13:24:28,612 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBossWS 5.1.3.SP1-redhat-1 (Apache CXF 3.1.4.redhat-1) 
+2016-07-18 13:24:28,663 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-1) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.2.Final-redhat-1
+2016-07-18 13:24:28,752 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) a démarré en 3301ms - 258 sur 548 services ont démarré (372 services sont passifs ou à la demande)
+2016-07-18 15:16:39,182 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0011: Impossible d'afficher les fichiers de répertoire pour /Users/enonowog/BlogWorkspace/EAPDomains/labs-eap7/jboss-eap-7.0/bin/../../host2/domain/servers/Server23/data/content
+2016-07-18 15:21:39,172 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0011: Impossible d'afficher les fichiers de répertoire pour /Users/enonowog/BlogWorkspace/EAPDomains/labs-eap7/jboss-eap-7.0/bin/../../host2/domain/servers/Server23/data/content
+2016-07-18 15:26:39,166 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0011: Impossible d'afficher les fichiers de répertoire pour /Users/enonowog/BlogWorkspace/EAPDomains/labs-eap7/jboss-eap-7.0/bin/../../host2/domain/servers/Server23/data/content
+2016-07-18 15:30:46,460 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: La fermeture du serveur à été demandée.
+2016-07-18 15:30:46,478 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Source de données non liée [java:jboss/datasources/ExampleDS]
+2016-07-18 15:30:46,487 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0019: L'hôte default-host s'arrête
+2016-07-18 15:30:46,505 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTP écouteur default en cours de suspension
+2016-07-18 15:30:46,506 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTP écouteur default s'est arrêté, était lié à 127.0.0.1:8080
+2016-07-18 15:30:46,507 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Arrêt du service de pilote avec le nom de pilote  = h2
+2016-07-18 15:30:46,509 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0004: Arrêt 1.3.21.Final-redhat-1 d'Undertow
+2016-07-18 15:30:46,536 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) arrêté en 67ms
+2016-07-18 15:32:37,381 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 36) WFLYCLINF0001: Activation du sous-système Infinispan
+2016-07-18 15:32:37,383 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 35) WFLYIO001: L'employé 'default' a configuré automatiquement les fils principaux 16 avec les fils de tâche 128 selon vos 8 processeurs disponibles
+2016-07-18 15:32:37,389 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 32) WFLYJCA0004: Déploiement du pilote compatible JDCB class org.h2.Driver (version 1.3)
+2016-07-18 15:32:37,390 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 52) WFLYTX0013: Propriété d'identificateur de noeud définie à la valeur par défaut. Veillez à ce que cette valeur soit bien unique.
+2016-07-18 15:32:37,404 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 42) WFLYJSF0007: A activé les implémentations JSF suivantes : [main]
+2016-07-18 15:32:37,451 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 44) WFLYNAM0001: Démarrage du sous-système de nommage
+2016-07-18 15:32:37,457 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 54) WFLYWS0002: Activation de l'extension WebServices
+2016-07-18 15:32:37,463 INFO  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0009: Démarrage du sous-système JCA (WildFly/IronJacamar 1.3.3.Final-redhat-1)
+2016-07-18 15:32:37,472 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Démarrage du service de pilote avec le nom de pilote  = h2
+2016-07-18 15:32:37,473 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 50) WFLYSEC0002: Activation du sous-système de sécurité
+2016-07-18 15:32:37,479 INFO  [org.jboss.as.security] (MSC service thread 1-7) WFLYSEC0001: Version PicketBox actuelle=4.9.6.Final-redhat-1
+2016-07-18 15:32:37,483 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 53) WFLYUT0003: Démarrage 1.3.21.Final-redhat-1 d'Undertow 
+2016-07-18 15:32:37,483 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Démarrage 1.3.21.Final-redhat-1 d'Undertow 
+2016-07-18 15:32:37,528 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Démarrage du service de nommage
+2016-07-18 15:32:37,528 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Session mail liée [java:jboss/mail/Default]
+2016-07-18 15:32:37,556 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 53) WFLYUT0014: Création de gestionnaire de fichier pour le chemin '/Users/enonowog/BlogWorkspace/EAPDomains/labs/jboss-eap-7.0/welcome-content' avec les options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2016-07-18 15:32:37,686 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: A démarré le serveur default-server.
+2016-07-18 15:32:37,692 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: L'hôte default-host démarre
+2016-07-18 15:32:37,806 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTP écouteur default écoutant sur 127.0.0.1:8580
+2016-07-18 15:32:37,882 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0481: Strict pool slsb-strict-max-pool utilise une taille d'instance max de 128 (par classe), qui est dérivée de la taille du pool de worker de threads.
+2016-07-18 15:32:37,882 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0482: Strict pool mdb-strict-max-pool utilise une taille d'instance max de 32 (par classe), qui est dérivée du nombre de CPU présents sur cet hôte.
+2016-07-18 15:32:37,986 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Source de données liée [java:jboss/datasources/ExampleDS]
+2016-07-18 15:32:38,219 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 5.1.3.SP1-redhat-1 (Apache CXF 3.1.4.redhat-1) 
+2016-07-18 15:32:38,262 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-3) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.2.Final-redhat-1
+2016-07-18 15:32:38,395 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) a démarré en 4018ms - 258 sur 548 services ont démarré (372 services sont passifs ou à la demande)

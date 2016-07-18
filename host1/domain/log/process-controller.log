@@ -1,0 +1,4 @@
+2016-07-18 15:32:10,180 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final-redhat-1
+2016-07-18 15:32:10,276 INFO  [org.jboss.as.process.Host Controller.status] (main) WFLYPC0018: Démarrage du processus 'Host Controller'
+2016-07-18 15:32:12,749 INFO  [org.jboss.as.process.Server:Server11.status] (ProcessController-threads - 3) WFLYPC0018: Démarrage du processus 'Server:Server11'
+2016-07-18 15:32:13,929 INFO  [org.jboss.as.process.Server:Server12.status] (ProcessController-threads - 3) WFLYPC0018: Démarrage du processus 'Server:Server12'

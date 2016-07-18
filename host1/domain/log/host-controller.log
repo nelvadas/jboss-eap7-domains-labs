@@ -1,0 +1,22 @@
+2016-07-18 15:32:10,653 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final-redhat-1
+2016-07-18 15:32:10,792 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final-redhat-1
+2016-07-18 15:32:10,832 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) démarre
+2016-07-18 15:32:11,287 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.3.6.Final-redhat-1
+2016-07-18 15:32:11,292 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.3.6.Final-redhat-1
+2016-07-18 15:32:11,330 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 4.0.18.Final-redhat-1
+2016-07-18 15:32:11,441 INFO  [org.jboss.as.remoting] (MSC service thread 1-6) WFLYRMT0001: Écoute sur 127.0.0.1:19999
+2016-07-18 15:32:12,659 INFO  [org.jboss.as.controller.management-deprecated] (Host Controller Service Threads - 2) WFLYCTL0028: L'attribut 'max-permgen-size' dans les ressources à l'adresse '/server-group=secondary-server-group/jvm=default' est désapprouvé et peut être supprimé dans la prochaine version. Pour en savoir plus sur la désapprobation, consulter la description de l'attribut dans la sortie de l'opération  read-resource-description.
+2016-07-18 15:32:12,661 INFO  [org.jboss.as.controller.management-deprecated] (Host Controller Service Threads - 2) WFLYCTL0028: L'attribut 'max-permgen-size' dans les ressources à l'adresse '/server-group=primary-server-group/jvm=default' est désapprouvé et peut être supprimé dans la prochaine version. Pour en savoir plus sur la désapprobation, consulter la description de l'attribut dans la sortie de l'opération  read-resource-description.
+2016-07-18 15:32:12,716 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0148: S'est connecté au contrôleur d'hôte du master à remote://127.0.0.1:9999
+2016-07-18 15:32:12,739 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0023: Démarrage du serveur Server11
+2016-07-18 15:32:12,741 WARN  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0011: Ignorer <permgen> pour jvm 'SUN' type jvm: default
+2016-07-18 15:32:12,754 WARN  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0011: Ignorer <permgen> pour jvm 'SUN' type jvm: default
+2016-07-18 15:32:13,910 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Serveur [Server:Server11] connecté avec la connexion [Channel ID 3a98f193 (inbound) of Remoting connection 5b0ad517 to /127.0.0.1:57846]
+2016-07-18 15:32:13,926 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0023: Démarrage du serveur Server12
+2016-07-18 15:32:13,926 WARN  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0011: Ignorer <permgen> pour jvm 'SUN' type jvm: default
+2016-07-18 15:32:13,934 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Enregistrement du serveur Server11
+2016-07-18 15:32:13,936 WARN  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0011: Ignorer <permgen> pour jvm 'SUN' type jvm: default
+2016-07-18 15:32:15,879 INFO  [org.jboss.as.host.controller] (management task-5) WFLYHC0021: Serveur [Server:Server12] connecté avec la connexion [Channel ID 10d26505 (inbound) of Remoting connection 5714e317 to /127.0.0.1:57847]
+2016-07-18 15:32:15,894 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Enregistrement du serveur Server12
+2016-07-18 15:32:15,900 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.0.0.GA (WildFly Core 2.1.2.Final-redhat-1) (Host Controller) a démarré en 5519ms - 43 sur 44 services ont démarré (13 services sont passifs ou à la demande)
+2016-07-18 15:34:53,907 INFO  [org.jboss.as.repository] (Host Controller Service Threads - 15) WFLYDR0002: Contenu supprimé de la location /Users/enonowog/BlogWorkspace/EAPDomains/labs/jboss-eap-7.0/bin/../../host1/domain/data/content/09/0c89a552653143e70d4c1aa6c7eaf5e9e0086b/content
